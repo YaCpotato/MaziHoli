@@ -17,6 +17,6 @@
         }
     },
     "styles": {
-        "website": "site.css"
+        "website": "main/styles/site.css"
     }
 }

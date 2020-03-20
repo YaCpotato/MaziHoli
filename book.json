@@ -15,5 +15,8 @@
         "theme-default": {
             "showLevel": false
         }
+    },
+    "styles": {
+        "website": "site.css"
     }
 }

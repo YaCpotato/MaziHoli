@@ -1,5 +1,33 @@
-/** このファイルにWeb用のスタイルを指定します。 */
-
-body{
-    
+.level-zero{
+    background-color:#ffffbc
+}
+.level-one{
+    background-color:#ddffbc
+}
+.level-two{
+    background-color:#bcffbc
+}
+.level-three{
+    background-color:#bcffdd
+}
+.level-four{
+    background-color:#bcffff;
+}
+.level-five{
+    background-color:#bcddff;
+}
+.level-six{
+    background-color:#bcbcff;
+}
+.level-seven{
+    background-color:#ddbcff;
+}
+.level-eight{
+    background-color:#ffbcff;
+}
+.level-nine{
+    background-color:#ffbcdd;
+}
+.level-ten{
+    background-color:#ffbcbc;
 }

@@ -22,16 +22,16 @@
 {% math %}
 \LARGE y(x,w) = w_0+w_1x_1+...+w_Dx_D
 {% endmath %}
-<div style="text-align:center">
+<div class="align-center">
     <p>{% math %}y:x{% endmath %}における目標値</p>
     <p>{% math %}D:{% endmath %}入力の次元数</p>
     <p>{% math %}x:{% endmath %}入力変数</p>
     <p>{% math %}w:{% endmath %}パラメータ</p>
 </div>
 
-<div style="text-align:center">
-    <img src='../assets/algorithm/linear_regression_00.svg' style="width:100%">
-    <p style="font-size:18px;">図1：適当な散布図</p>
+<div class="align-center">
+    <img src='../assets/algorithm/linear_regression_00.svg' class="full-width-img">
+    <p class="figure-disc">図1：適当な散布図</p>
 </div>
 
 ### 参考文献

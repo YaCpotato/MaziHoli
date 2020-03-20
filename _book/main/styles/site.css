@@ -31,3 +31,12 @@
 .level-ten{
     background-color:#ffbcbc;
 }
+.align-center{
+    text-align: center;
+}
+.full-width-img{
+    width:100%;
+}
+.figure-disc{
+    font-size:18px;
+}

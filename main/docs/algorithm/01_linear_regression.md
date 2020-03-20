@@ -29,7 +29,10 @@
     <p>{% math %}w:{% endmath %}パラメータ</p>
 </div>
 
+<div style="text-align:center">
+    <img src='../assets/algorithm/linear_regression_00.svg' style="width:100%">
+    <p style="font-size:18px;">図1：適当な散布図</p>
+</div>
 
-<img src='../assets/algorithm/linear_regression_00.svg' style="width:100%">
 ### 参考文献
 - C.M.ビショップ, パターン認識と機械学習　上, 2016, 丸善出版

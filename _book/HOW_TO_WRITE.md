@@ -39,6 +39,13 @@
 * ベクター形式を使用する
 
 ```
-<img src='../assets/algorithm/linear_regression_00.svg' style="width:100%">
+<div style="display:flex;">
+    <img src='../assets/algorithm/linear_regression_00.svg' style="width:100%">
+    <span>ddd</span>
+</div>
 ```
-<img src='../assets/algorithm/linear_regression_00.svg' style="width:100%">
+
+<div style="display:flex;">
+    <img src='../assets/algorithm/linear_regression_00.svg' style="width:100%">
+    <span>ddd</span>
+</div>

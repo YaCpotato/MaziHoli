@@ -1,14 +1,14 @@
 # 線形回帰
 ## 線形回帰モデル
 ### 線形規程関数モデル(線形回帰)
-回帰問題の目標は{% math %}N{% endmath %}個の観測値{% math %}\{x_n\}(n=1,...,N){% endmath %}と， それに対応する目標値{% math %}f(x){% endmath %}の集合からなるデータ集合が与えられた時， 目標値が未知である{% math %}x{% endmath %}が与えられた時の目標値{% math %}f(x){% endmath %}を予測するモデル
+回帰問題の目標は{% math %}N{% endmath %}個の観測値{% math %}\{x_n\}(n=1,...,N){% endmath %}と， それに対応する目標値{% math %}y{% endmath %}の集合からなるデータ集合が与えられた時， 目標値が未知である{% math %}x{% endmath %}が与えられた時の目標値{% math %}y{% endmath %}を予測するモデル
 
 {% math %}
-\LARGE f(x) = w_0+w_1x_1+...+w_Dx_D
+\LARGE y = w_0+w_1x_1+...+w_Dx_D
 {% endmath %}
 <div class="align-center">
     <p>式１：線形回帰モデル</p>
-    <p>{% math %}f(x):x{% endmath %}における目標値</p>
+    <p>{% math %}y:x{% endmath %}における目標値</p>
     <p>{% math %}D:{% endmath %}入力の次元数(変数の数)</p>
     <p>{% math %}x:{% endmath %}入力変数</p>
     <p>{% math %}w:{% endmath %}パラメータ</p>
@@ -19,14 +19,14 @@
 変数が１つというのは上の式の{% math %}D{% endmath %}が1ということなので
 
 {% math %}
-\LARGE f(x) = w_1x + w_0
+\LARGE y = w_1x + w_0
 {% endmath %}
 <div class="align-center">
     <p>式２：単回帰モデル</p>
-    <p>{% math %}f(x):x{% endmath %}における目標値</p>
+    <p>{% math %}y:x{% endmath %}における目標値</p>
     <p>{% math %}x:{% endmath %}入力変数</p>
-    <p>{% math %}w_1:{% endmath %}直線f(x)の傾き</p>
-    <p>{% math %}w_0:{% endmath %}直線f(x)の切片</p>
+    <p>{% math %}w_1:{% endmath %}直線yの傾き</p>
+    <p>{% math %}w_0:{% endmath %}直線yの切片</p>
 </div>
 
 ということになります。  
@@ -46,10 +46,24 @@ Y = [2.88360466 2.17708598 1.13066378 2.08154464 2.20449103 1.26892566
     <img src='../assets/algorithm/linear_regression_00.svg' class="full-width-img">
     <p class="figure-disc">図１：データ散布図</p>
 </div>
-見ての通り、データは直線では表しにくいものですので、新しいデータ{% math %}x{% endmath %}に対して確実にコレ！という{% math %}f(x){% endmath %}を求めることは難しいです(ある点にはかなり近いが違う点からは遠い　など)。ですので、ある程度の誤差は仕方ありません。できる限り誤差を減らし、図２のようなそれらしい直線を引くことが単回帰分析となります。
+見ての通り、データは直線では表しにくいものですので、新しいデータ{% math %}x{% endmath %}に対して確実にコレ！という{% math %}y{% endmath %}を求めることは難しいです(ある点にはかなり近いが違う点からは遠い　など)。ですので、ある程度の誤差は仕方ありません。できる限り誤差を減らし、図２のようなそれらしい直線を引くことが単回帰分析となります。
 <div class="align-center">
     <img src='../assets/algorithm/linear_regression_01.svg' class="full-width-img">
     <p class="figure-disc">図２：単回帰分析後のイメージ</p>
+</div>
+
+##### 誤差
+どのくらいデータに合っているか、誤差が小さい直線かを判断する目安として、  
+平均二乗誤差関数(Mean Squared Error)があります。
+
+{% math %}
+\LARGE MSE(y,\hat{y}) = \frac{1}{N} \sum_{n=0}^{N-1} (y_n - \hat{y}_n)
+{% endmath %}
+<div class="align-center">
+    <p>式３：平均二乗誤差関数</p>
+    <p>{% math %}y:{% endmath %}目標値</p>
+    <p>{% math %}\hat{y}:{% endmath %}予測値</p>
+    <p>{% math %}N:{% endmath %}変数の数(サンプル数)</p>
 </div>
 
 ### 編集後記

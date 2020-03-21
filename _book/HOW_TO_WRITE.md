@@ -8,19 +8,19 @@
 ```
 ## 項目カラーリスト
 <div class="color-area">
-    <h3>メイン解説以外の解説はレベルによってタイトルの背景色を変える(h4(項)を想定)</h3>
+    <h3>メイン解説以外の解説はレベルによってタイトルの背景色を変える(h6を想定)</h3>
     <ol>
-        <h4 class="level-ten">.level-ten -大学数学レベル3-</h4>
-        <h4 class="level-nine">.level-nine -大学数学レベル2-</h4>	
-        <h4 class="level-eight">.level-eight　↑</h4>
-        <h4 class="level-seven">.level-seven　↑</h4>
-        <h4 class="level-six">.level-six -理系大学入試レベル-</h4>
-        <h4 class="level-five">.level-five　↑</h4>
-        <h4 class="level-four">.level-four　↑</h4>
-        <h4 class="level-three">.level-three -高校数学レベル-</h4>
-        <h4 class="level-two">.level-two　↑</h4>
-        <h4 class="level-one">.level-one　↑</h4>
-        <h4 class="level-zero">.level-zero -中学数学レベル-</h4>
+        <h6 class="level-ten">.level-ten -大学数学レベル3-</h6>
+        <h6 class="level-nine">.level-nine -大学数学レベル2-</h6>	
+        <h6 class="level-eight">.level-eight　↑</h6>
+        <h6 class="level-seven">.level-seven　↑</h6>
+        <h6 class="level-six">.level-six -理系大学入試レベル-</h6>
+        <h6 class="level-five">.level-five　↑</h6>
+        <h6 class="level-four">.level-four　↑</h6>
+        <h6 class="level-three">.level-three -高校数学レベル-</h6>
+        <h6 class="level-two">.level-two　↑</h6>
+        <h6 class="level-one">.level-one　-中学数学レベル-</h6>
+        <h6 class="level-zero">.level-zero -余談-</h6>
     </ol>
 </div>
 

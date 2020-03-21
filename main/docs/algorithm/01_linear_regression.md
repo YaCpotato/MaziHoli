@@ -1,7 +1,7 @@
 # 線形回帰
 ## 線形回帰モデル
 ### 線形規程関数モデル(線形回帰)
-回帰問題の目標は{% math %}N{% endmath %}個の観測値{% math %}\{x_n\}(n=1,...,N){% endmath %}と， それに対応する目標値{% math %}\{t_n\}{% endmath %}(つまり{% math %}f(x){% endmath %})からなるデータ集合が与えられた時， 目標値が未知である{% math %}x{% endmath %}が与えられた時の目標値(tの値)を予測する
+回帰問題の目標は{% math %}N{% endmath %}個の観測値{% math %}\{x_n\}(n=1,...,N){% endmath %}と， それに対応する目標値{% math %}f(x){% endmath %}の集合からなるデータ集合が与えられた時， 目標値が未知である{% math %}x{% endmath %}が与えられた時の目標値{% math %}f(x){% endmath %}を予測するモデル
 
 {% math %}
 \LARGE f(x) = w_0+w_1x_1+...+w_Dx_D
@@ -9,7 +9,7 @@
 <div class="align-center">
     <p>式１：線形回帰モデル</p>
     <p>{% math %}f(x):x{% endmath %}における目標値</p>
-    <p>{% math %}D:{% endmath %}入力の次元数</p>
+    <p>{% math %}D:{% endmath %}入力の次元数(変数の数)</p>
     <p>{% math %}x:{% endmath %}入力変数</p>
     <p>{% math %}w:{% endmath %}パラメータ</p>
 </div>
